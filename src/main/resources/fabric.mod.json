@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "nexus",
+  "version": "${version}",
+  "name": "NEXUS CLIENT",
+  "description": "A client-side visual customization mod with a theme GUI and cosmetic effects.",
+  "authors": ["NEXUS Team"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.nexus.client.NexusClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
